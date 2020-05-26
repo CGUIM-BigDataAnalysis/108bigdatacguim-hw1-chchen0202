@@ -71,7 +71,7 @@ DataWork107$PriceUpPercentage<-DataWork107$`研究所-薪資`/DataWork107$`大�
 DataWork107COM<-DataWork107[complete.cases(DataWork107),]
 
 #使用order排序並做成子集，利用head()取出前十名
-head(DataWork107COM[order(DataWork107COM$PriceUpPercentage,decreasing = T),c(2,15)],10)
+head(DataWork107COM[order(DataWork107COM$PriceUpPercentage,decreasing = T),c(2)],10)
 
 
 #4
